@@ -7,8 +7,8 @@
             .hash = "122045ee60a51a07c223cc343632317d300053e5ea7c12e79c2c7239932a7dcac5ba",
         },
         .ogg = .{
-            .url = "https://github.com/hexops/ogg/archive/e762269ff07af67cb6bc7bab294484684ba48b06.tar.gz",
-            .hash = "1220daaca2912647b39b6a1b30b02dbd0a1595aa79733162af43424369cf36f3592e",
+            .url = "https://github.com/hexops/ogg/archive/114d7c55b5b716c230665705a133e2e196069720.tar.gz",
+            .hash = "1220b9508c409fcbef9644ec91d1563250978d5724a75942d79fc551a05b22ee5daa",
         },
     },
 }

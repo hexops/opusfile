@@ -18,6 +18,7 @@ pub fn build(b: *std.Build) void {
     lib.addIncludePath("include");
     lib.addCSourceFiles(&sources, &.{});
     lib.installHeadersDirectory("include", "");
+    lib.installLibraryHeaders(opus_dep.artifact("opus"));
     b.installArtifact(lib);
 }
 
