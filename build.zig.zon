@@ -3,8 +3,8 @@
     .version = "0.0.0",
     .dependencies = .{
         .opus = .{
-            .url = "https://github.com/hexops/opus/archive/a35c013d85205e4b088ef6787a4918c368df5fc6.tar.gz",
-            .hash = "122084d3a13ad9a7ca6639c8054d9f6bef42e5544c92b3dd609e995c8ab3b09612fd",
+            .url = "https://github.com/hexops/opus/archive/12d6240bedb304ee2aa619d877d252207ef5214a.tar.gz",
+            .hash = "122069cba6bab5aa9fcb553613fc7ac632cda5055bf773d75324f5da5c619d4a239f",
         },
         .ogg = .{
             .url = "https://github.com/hexops/ogg/archive/e762269ff07af67cb6bc7bab294484684ba48b06.tar.gz",
