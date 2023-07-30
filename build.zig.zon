@@ -1,0 +1,14 @@
+.{
+    .name = "opusfile",
+    .version = "0.0.0",
+    .dependencies = .{
+        .opus = .{
+            .url = "https://github.com/hexops/opus/archive/152e938011093bb24b3936157288e62d5e586a92.tar.gz",
+            .hash = "122047a22e12f7e8f3d71bf1db8e8cea1c774e8b1a6506f1472f30453d1e4577ab1b",
+        },
+        .ogg = .{
+            .url = "https://github.com/hexops/ogg/archive/8f49939b0c8c171e9df6248074857c77704b17e7.tar.gz",
+            .hash = "12208a6f1e97da56e10b6645df532e784d5bae00c56a38a9bba8f044122308d425c2",
+        },
+    },
+}
