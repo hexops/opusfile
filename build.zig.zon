@@ -3,12 +3,12 @@
     .version = "0.0.0",
     .dependencies = .{
         .opus = .{
-            .url = "https://github.com/hexops/opus/archive/626e9c2a0f86906500a2a73640a1675cf2ac40b3.tar.gz",
-            .hash = "122045ee60a51a07c223cc343632317d300053e5ea7c12e79c2c7239932a7dcac5ba",
+            .url = "https://github.com/hexops/opus/archive/21515706c0199ed98d5c91e5ca64bab6acd04fad.tar.gz",
+            .hash = "122058828abacb2176ce593a7e85911f60c2b921bd5831e53f279dc6103cbcf17038",
         },
         .ogg = .{
-            .url = "https://github.com/hexops/ogg/archive/114d7c55b5b716c230665705a133e2e196069720.tar.gz",
-            .hash = "1220b9508c409fcbef9644ec91d1563250978d5724a75942d79fc551a05b22ee5daa",
+            .url = "https://github.com/hexops/ogg/archive/9728083d98e2fe439a9412e50591d1483ea77e13.tar.gz",
+            .hash = "122013161ef63b96b08e8281b41f7ebc130b4a90574c1ce420f91914fe56287bb9aa",
         },
     },
 }
