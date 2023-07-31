@@ -13,12 +13,13 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     });
     lib.linkLibC();
-    lib.linkLibrary(ogg_dep.artifact("ogg"));
     lib.linkLibrary(opus_dep.artifact("opus"));
+    lib.linkLibrary(ogg_dep.artifact("ogg"));
     lib.addIncludePath("include");
     lib.addCSourceFiles(&sources, &.{});
     lib.installHeadersDirectory("include", "");
     lib.installLibraryHeaders(opus_dep.artifact("opus"));
+    lib.installLibraryHeaders(ogg_dep.artifact("ogg"));
     b.installArtifact(lib);
 }
 
