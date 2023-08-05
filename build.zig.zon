@@ -7,8 +7,8 @@
             .hash = "12201dab604b5ebd4e6891e791aae80cfc494a4a34593ad0fdc0369aba98ca82c49a",
         },
         .ogg = .{
-            .url = "https://pkg.machengine.org/ogg/9cd07cbbba3a940a251d9b7d8edd16518b7eb84d.tar.gz",
-            .hash = "122057f51c739f8913c3c33709f847574f6f879774a1923f4bbbdce7b6d475217ab4",
+            .url = "https://pkg.machengine.org/ogg/be7be18acc6bec07b8a95d3792022184e92581dd.tar.gz",
+            .hash = "1220ab11235474e159c32e7af91839e6b5585c0852230d7994d0b357fa7ce0ecd44b",
         },
     },
 }
