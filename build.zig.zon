@@ -1,14 +1,24 @@
 .{
     .name = "opusfile",
     .version = "0.0.0",
+    .paths = .{
+        "include",
+        "src",
+        "build.zig",
+        "build.zig.zon",
+        "COPYING",
+        "README.md",
+        "update.sh",
+        "verify.sh",
+    },
     .dependencies = .{
         .opus = .{
-            .url = "https://pkg.machengine.org/opus/51453c252b7f021b81697868d3c662c5925809d2.tar.gz",
-            .hash = "1220c32603d5221fc1680c7c025811c6cc5de46fb38395a00a0836daad3d01f1835b",
+            .url = "https://pkg.machengine.org/opus/7eddaec093d7056ce96ffc9712db8abd76bb262b.tar.gz",
+            .hash = "12204ccca518df3c7e19a5b739aca7d77f0be92f068f7c81316f2d4b7db085945ae9",
         },
         .ogg = .{
-            .url = "https://pkg.machengine.org/ogg/370d8c6425fbc25aea6b09761358e47fc325f88d.tar.gz",
-            .hash = "1220ab5e1dc843f13794de71eff73fbdb656f5ec150a92daafadc4bcdebb4d03c2f2",
+            .url = "https://pkg.machengine.org/ogg/a55253b4cd811288d378f5d99df9a92cf6eac0f7.tar.gz",
+            .hash = "1220c5b989e47e07722570d71cc059bd672ea8b53a0d003c3fa0a6ac044c08d962a0",
         },
     },
 }
