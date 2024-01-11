@@ -13,11 +13,11 @@
     },
     .dependencies = .{
         .opus = .{
-            .url = "https://pkg.machengine.org/opus/7eddaec093d7056ce96ffc9712db8abd76bb262b.tar.gz",
-            .hash = "12204ccca518df3c7e19a5b739aca7d77f0be92f068f7c81316f2d4b7db085945ae9",
+            .url = "https://pkg.machengine.org/opus/367bce6d7e2063f7dac6c84c82c927df45962733.tar.gz",
+            .hash = "1220df7cf6faa7cb31a4810b525167cfb0f4399021dabfb990cff86189411092b604",
         },
         .ogg = .{
-            .url = "https://pkg.machengine.org/ogg/a55253b4cd811288d378f5d99df9a92cf6eac0f7.tar.gz",
+            .url = "https://pkg.machengine.org/ogg/2024b70170e08d8d1c881af1938292683fc50fed.tar.gz",
             .hash = "1220c5b989e47e07722570d71cc059bd672ea8b53a0d003c3fa0a6ac044c08d962a0",
         },
     },
