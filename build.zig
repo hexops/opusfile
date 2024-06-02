@@ -15,9 +15,9 @@ pub fn build(b: *std.Build) void {
     lib.linkLibC();
     lib.linkLibrary(opus_dep.artifact("opus"));
     lib.linkLibrary(ogg_dep.artifact("ogg"));
-    lib.addIncludePath(.{ .path = "include" });
+    lib.addIncludePath(b.path("include"));
     lib.addCSourceFiles(.{ .files = &sources, .flags = &.{} });
-    lib.installHeadersDirectory("include", "");
+    lib.installHeadersDirectory(b.path("include"), "", .{});
     lib.installLibraryHeaders(opus_dep.artifact("opus"));
     lib.installLibraryHeaders(ogg_dep.artifact("ogg"));
     b.installArtifact(lib);
